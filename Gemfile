@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.8.1'
+gem 'rails', '5.2.4.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,7 +8,7 @@ gem 'rails', '5.2.8.1'
 gem 'mysql2', '0.3.11'
 gem 'authlogic', '3.3.0'
 gem 'friendly_id',  '4.0.9'
-gem 'paperclip', '5.2.1'
+gem 'paperclip', '3.4.1'
 gem 'delayed_job', '4.1.5'
 gem 'delayed_job_active_record', '4.1.0'
 gem 'redis',         '3.0.2'
@@ -47,7 +47,7 @@ group :assets do
   gem 'uglifier', '>= 2.7.2'
 end
 
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
