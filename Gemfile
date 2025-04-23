@@ -14,11 +14,11 @@ gem 'delayed_job_active_record', '4.1.0'
 gem 'redis',         '3.0.2'
 gem 'daemons',       '1.1.9'
 gem 'json', '2.3.0'
-gem 'aws-sdk', '1.9.5'
+gem 'aws-sdk', '1.52.0'
 gem 'oauth', '0.5.5'
 
 group :development do
-  gem 'fog', '>= 1.14.0'
+  gem 'fog', '>= 1.37.0'
   gem 'thin', '>= 1.5.1'
   gem 'debugger', '1.2.2'
   gem 'wirble'
