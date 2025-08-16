@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.8.1'
+gem 'rails', '7.1.5.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2', '0.3.11'
-gem 'authlogic', '3.3.0'
+gem 'authlogic', '3.2.0'
 gem 'friendly_id',  '4.0.9'
-gem 'paperclip', '5.2.1'
+gem 'paperclip', '3.4.0'
 gem 'delayed_job', '4.1.5'
-gem 'delayed_job_active_record', '4.1.0'
+gem 'delayed_job_active_record', '4.1.7'
 gem 'redis',         '3.0.2'
 gem 'daemons',       '1.1.9'
 gem 'json', '2.3.0'
