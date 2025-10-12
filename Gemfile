@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.8.1'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -19,7 +19,7 @@ gem 'oauth', '0.5.5'
 
 group :development do
   gem 'fog', '>= 1.14.0'
-  gem 'thin', '>= 1.5.1'
+  gem 'thin', '>= 1.6.0'
   gem 'debugger', '1.2.2'
   gem 'wirble'
   gem 'simple_oauth', '0.3.0'
@@ -38,16 +38,16 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails', '~> 5.0.5'
-  gem 'coffee-rails', '~> 4.2.2'
+  gem 'coffee-rails', '~> 4.1.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  gem 'turbo-sprockets-rails3', '>= 0.3.6'
+  gem 'turbo-sprockets-rails3', '>= 0.3.7'
 
   gem 'uglifier', '>= 2.7.2'
 end
 
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
